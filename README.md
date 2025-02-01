@@ -18,14 +18,14 @@
    ```sh
    npm start
 
-##Usage
+## Usage
 Once the project is running, open the following URLs in your browser:
 
 Admin Panel: http://localhost:3000/admin
 User 1 Screen: http://localhost:3000/screen1
 User 2 Screen: http://localhost:3000/screen2
 
-##Technologies Used
+## Technologies Used
 Firebase (for backend services)
 Node.js (server-side runtime)
 React (frontend framework)
