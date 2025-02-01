@@ -13,8 +13,19 @@
    ```sh
    npm install
 
-Start the Project:
-sh
-Copy
-Edit
-npm star
+
+3. **Start the Project**
+   ```sh
+   npm start
+
+##Usage
+Once the project is running, open the following URLs in your browser:
+
+Admin Panel: http://localhost:3000/admin
+User 1 Screen: http://localhost:3000/screen1
+User 2 Screen: http://localhost:3000/screen2
+
+##Technologies Used
+Firebase (for backend services)
+Node.js (server-side runtime)
+React (frontend framework)
