@@ -1,0 +1,168 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.NavUse{
+  flex-direction: column !important;
+}
+@media (max-width: 768px) {
+  .NavUse {
+    width: 490%;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 20px !important;
+  }
+}
+.ContactList{
+  box-shadow: 0px 0px 8px 0px #0000004f;
+  height: 92vh;
+}
+.ContactButton {
+  color: #e2e2e2 !important;
+    background-color: #111b27 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 0px !important;
+    height: 10vh;
+}
+
+/* Hover effect */
+.ContactButton:hover {
+  color: #fff !important;
+  background-color: #007bff !important;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+}
+
+@keyframes example {
+  from {transform: scale(1.00)}
+  to {transform: scale(1.05)}
+}
+
+/* Active state */
+.ContactButton.active {
+  color: #fff;
+  background-color: #0056b3 !important; /* Darker blue for active */
+  box-shadow: 0 4px 8px rgba(0, 86, 179, 0.3);
+}
+
+/* Add smooth scaling animation */
+.ContactButton:hover {
+  transform: scale(1.05);
+  animation: example;
+  animation-duration: 1s;
+}
+
+.messages {
+  height: 76vh;
+  overflow-y: auto;
+  border-radius: 5px 5px 0 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #16222f;
+  opacity: 0.8;
+  background-image:  radial-gradient(#ffffff 0.9500000000000001px, transparent 0.9500000000000001px), radial-gradient(#ffffff 0.9500000000000001px, #16222f 0.9500000000000001px);
+  background-size: 38px 38px;
+  background-position: 0 0,19px 19px;
+}
+
+.messageAdmin {
+  align-self: flex-start; /* Admin messages on the left */
+  max-width: 60%;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #007bff; /* Blue color for admin messages */
+  color: #fff;
+  border-radius: 10px 10px 10px 0;
+}
+
+.messageUser {
+  align-self: flex-end; /* User messages on the right */
+  max-width: 60%;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #28a745; /* Green color for user messages */
+  color: #fff;
+  border-radius: 10px 10px 0 10px;
+}
+
+.timestamp {
+  font-size: 0.8em;
+  color: #ddd;
+  margin-top: 5px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px;
+  width: calc(100% - 100px);
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.InputButton {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+  background-color: #16222f;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styles for better spacing */
+.row {
+  margin: 0;
+}
+
+.col {
+  padding: 0;
+}
+
+/* Scrollbar styling for messages */
+.messages::-webkit-scrollbar {
+  width: 8px;
+}
+
+.messages::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+.messages::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+.messages::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.InputUser{
+  height: 70px;
+  
+  background-color: #394654 !important;
+  color: white !important;
+
+}

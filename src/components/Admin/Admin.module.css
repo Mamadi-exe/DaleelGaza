@@ -1,0 +1,118 @@
+body{
+  background-color: #1e2a38 !important;
+}
+
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white !important;
+}
+
+
+.timestamp {
+  font-size: 0.8em;
+  color: #ddd;
+  margin-top: 5px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px;
+  width: calc(100% - 100px);
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.InputButton {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+  background-color: #1e2a38;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.InputUser{
+  background-color: #394654 !important;
+  color: white !important;
+}
+
+/* Additional styles for better spacing */
+.row {
+  margin: 0;
+}
+
+.col {
+  padding: 0;
+}
+
+/* Scrollbar styling for messages */
+.messages::-webkit-scrollbar {
+  width: 8px;
+}
+
+.messages::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+.messages::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+.messages::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.TableUser {
+  background: #1e2a38;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.TableUser:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  color: #f8f9fa;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  transition: background-color 0.3s ease-in-out;
+}

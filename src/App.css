@@ -1,0 +1,52 @@
+/* Basic styling for the app */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  
+}
+body{
+  background-color: #1e2a38 !important;
+}
+.screen {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  background-color: #f9f9f9;
+}
+
+.admin-screen {
+  border-color: #4caf50;
+}
+
+.requests {
+  margin-bottom: 20px;
+}
+
+.requests p {
+  margin: 5px 0;
+}
+
+.broadcast input {
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+h2, h3 {
+  text-align: center;
+}
